@@ -5,7 +5,7 @@ int main(int argc, char** argv[]) {
 
     FILE* file = NULL;
     file = fopen("output.txt", "w");
-    unsigned char encrypted[] = "VOIXAMBIGUEDUNCOEURQUIAUZEPHIRPREFERELESJATTESDEKIWI";
+    unsigned char encrypted[] = "VOIXAMBIGUEDUNCOEURQUIAUZEPHIRPREFERELESJATTESDEKIWI"; // Message to encrypt/decrypt
     fprintf(file, "ORIGINAL MESSAGE: %s\n\n", encrypted);
     int longueur = 1;
     for(longueur=1;longueur<26;longueur++) {
