@@ -1,4 +1,4 @@
 # encrypt-decrypt-cesar-code
-Chiffre et déchiffre une chaine de caractère en utilisant le code de César.
+Decrypt and Encrypt a string with Cesar Code
 
 Use only uppercase char, no special char, and no space.
